@@ -1,6 +1,6 @@
 {
     "name": "datawrapper",
-    "homepage": "https://github.com/datawrapper/datawrapper",
+    "homepage": "https://bitbucket.org/fairfax/datawrapper",
     "type": "application",
     "license": "MIT",
     "require": {
