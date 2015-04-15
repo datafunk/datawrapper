@@ -203,17 +203,18 @@ function add_header_vars(&$page, $active = null, $page_css = null) {
         }
     }
 
-    if ($config['debug']) {
-        if (file_exists('../.git')) {
-            // parse git branch
-            $head = file_get_contents('../.git/HEAD');
-            $parts = explode("/", $head);
-            $branch = trim($parts[count($parts)-1]);
-            $output = array();
-            exec('git rev-parse HEAD', $output);
-            $commit = $output[0];
-            $page['BRANCH'] = ' (<a href="https://github.com/datawrapper/datawrapper/tree/'.$commit.'">'.$branch.'</a>)';
-        }
-    }
+    // if ($config['debug']) {
+    //     if (file_exists('../.git')) {
+    //         // parse git branch
+    //         $head = file_get_contents('../.git/HEAD');
+    //         $parts = explode("/", $head);
+    //         $branch = trim($parts[count($parts)-1]);
+    //         $output = array();
+    //         exec('git rev-parse HEAD', $output);
+    //         $commit = $output[0];
+    //         $page['BRANCH'] = ' (<a href="https://github.com/datafunk/datawrapper/tree/'.$commit.'">'.$branch.'</a>)';
+    //     }
+    // }
+    
 }
 
