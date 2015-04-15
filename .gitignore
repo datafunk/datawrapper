@@ -8,8 +8,11 @@ charts/data/*
 charts/images/*
 charts/static/*
 charts/exports/*
-config.php
-config.yaml
+###
+# config files are not ignored so our envs are set up identically
+###
+#config.php
+#config.yaml
 scripts/history.php
 fabfile.py*
 archive.tar
@@ -27,3 +30,9 @@ assets/vendor/*
 scripts/lib/execute_jobs.lock
 
 scripts/execute_jobs.lock
+
+###
+# Additions
+###
+
+composer.phar
