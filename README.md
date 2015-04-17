@@ -6,7 +6,8 @@
 
 This repo is maintained by [Marc Moncrief](mmoncrief@fairfaxmedia.com.au) and [Peter Borbely](pborbely@fairfaxmedia.com.au) 
 
-Note: at this initial phase the main branch is set to ```dev```!
+___Note:__ Main branch is set to __dev__, which  is the ffx development branch!
+The branch named *develop* is the original repo (datawrapper.de) development branch and must not be confused.
 
 
 ## About datawrapper
