@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "45da1e68f2198b1488ddf2ac50fe0a9e",
+    "hash": "494a484315248f15e48e32cd1803e4f2",
     "packages": [
         {
             "name": "ezyang/htmlpurifier",
@@ -100,24 +100,39 @@
         },
         {
             "name": "phing/phing",
-            "version": "2.8.1",
+            "version": "2.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phingofficial/phing.git",
-                "reference": "1e06b42fa8f4c5119eda8e9dd39c412250435e24"
+                "reference": "f6c25373cbce5e042dddd9b951a3d5638bb78f67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phingofficial/phing/zipball/1e06b42fa8f4c5119eda8e9dd39c412250435e24",
-                "reference": "1e06b42fa8f4c5119eda8e9dd39c412250435e24",
+                "url": "https://api.github.com/repos/phingofficial/phing/zipball/f6c25373cbce5e042dddd9b951a3d5638bb78f67",
+                "reference": "f6c25373cbce5e042dddd9b951a3d5638bb78f67",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.0"
             },
             "require-dev": {
+                "ext-pdo_sqlite": "*",
+                "lastcraft/simpletest": "@dev",
+                "pdepend/pdepend": "2.x",
+                "pear-pear.php.net/http_request2": "2.2.x",
+                "pear-pear.php.net/net_growl": "2.7.x",
+                "pear-pear.php.net/pear_packagefilemanager": "1.7.x",
+                "pear-pear.php.net/pear_packagefilemanager2": "1.0.x",
+                "pear-pear.php.net/xml_serializer": "0.20.x",
+                "pear/pear_exception": "~1.0",
+                "pear/versioncontrol_git": "@dev",
+                "pear/versioncontrol_svn": "~0.5",
                 "phpdocumentor/phpdocumentor": "2.x",
-                "phpunit/phpunit": ">=3.7"
+                "phploc/phploc": "2.x",
+                "phpmd/phpmd": "~2.2",
+                "phpunit/phpunit": ">=3.7",
+                "sebastian/phpcpd": "2.x",
+                "squizlabs/php_codesniffer": "~2.2"
             },
             "suggest": {
                 "pdepend/pdepend": "PHP version of JDepend",
@@ -136,6 +151,11 @@
                 "bin/phing"
             ],
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.10.x-dev"
+                }
+            },
             "autoload": {
                 "classmap": [
                     "classes/phing/"
@@ -150,13 +170,12 @@
             ],
             "authors": [
                 {
-                    "name": "Michiel Rook",
-                    "email": "mrook@php.net",
-                    "role": "Lead"
-                },
-                {
                     "name": "Phing Community",
                     "homepage": "http://www.phing.info/trac/wiki/Development/Contributors"
+                },
+                {
+                    "name": "Michiel Rook",
+                    "email": "mrook@php.net"
                 }
             ],
             "description": "PHing Is Not GNU make; it's a PHP project build system or build tool based on Apache Ant.",
@@ -167,7 +186,7 @@
                 "task",
                 "tool"
             ],
-            "time": "2014-07-01 14:18:47"
+            "time": "2015-02-19 15:49:46"
         },
         {
             "name": "propel/propel1",
@@ -274,16 +293,16 @@
         },
         {
             "name": "tedivm/jshrink",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tedious/JShrink.git",
-                "reference": "471d5ca318d452f0b4d6f328dade1cd3094517ef"
+                "reference": "7575d9d96f113bc7c1c28ec8231ee086751a9078"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tedious/JShrink/zipball/471d5ca318d452f0b4d6f328dade1cd3094517ef",
-                "reference": "471d5ca318d452f0b4d6f328dade1cd3094517ef",
+                "url": "https://api.github.com/repos/tedious/JShrink/zipball/7575d9d96f113bc7c1c28ec8231ee086751a9078",
+                "reference": "7575d9d96f113bc7c1c28ec8231ee086751a9078",
                 "shasum": ""
             },
             "require": {
@@ -311,12 +330,12 @@
                 }
             ],
             "description": "Javascript Minifier built in PHP",
-            "homepage": "http://github.com/tedivm/JShrink",
+            "homepage": "http://github.com/tedious/JShrink",
             "keywords": [
                 "javascript",
                 "minifier"
             ],
-            "time": "2014-05-05 20:44:19"
+            "time": "2014-11-11 03:54:14"
         },
         {
             "name": "tubalmartin/cssmin",
@@ -469,6 +488,7 @@
     "minimum-stability": "stable",
     "stability-flags": [],
     "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": {
         "php": ">=5.3.0"
     },
