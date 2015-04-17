@@ -1,8 +1,10 @@
 # Datawrapper configuration
 #
 
-domain: datawrapper.dev
-chart_domain: c.datawrapper.dev
+# domain: datawrapper.dev
+domain: dev.datawrapper.fairfax.com.au
+# chart_domain: c.datawrapper.dev
+chart_domain: dev.c.datawrapper.fairfax.com.au
 # asset_domain: ...
 
 ## the following keys are used to hash passwords.

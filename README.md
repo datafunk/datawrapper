@@ -1,5 +1,16 @@
 # Datawrapper
 
+## Datawrapper Fairfax Media fork
+
+### This is a fork from v1.9.3
+
+This repo is maintained by [Marc Moncrief](mmoncrief@fairfaxmedia.com.au) and [Peter Borbely](pborbely@fairfaxmedia.com.au) 
+
+Note: at this initial phase the main branch is set to ```dev```!
+
+
+## About datawrapper
+
 Datawrapper is a tool that enables anyone to create visualizations in seconds, without any programming skills.
 
 It draws inspiration from [ManyEyes](http://www-958.ibm.com/software/data/cognos/manyeyes/) and [GoogleCharts](https://developers.google.com/chart/) but remains entirely open-source and independent from a third-party server.
