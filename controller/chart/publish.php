@@ -39,6 +39,11 @@ $app->get('/chart/:id/publish', function ($id) use ($app) {
             'estExportTime' => ceil(JobQuery::create()->estimatedTime('export') / 60)
         );
 
+
+        // var_dump($page);    
+
+        
+
         add_header_vars($page, 'chart', 'chart-editor/publish.css');
         add_editor_nav($page, 4);
 

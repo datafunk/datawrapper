@@ -8,9 +8,11 @@
 dw.backend.ready(function() {
     require(['dw/chart/publish'], function(publish) {
 
-
+        console.log(publish.init);
 
         publish.init('{{ chartUrl }}'{% if publish %}, true{% if republish %}, true{% endif %}{% endif %});
+
+        // publish.init( chartURL, true);
 
         console.log([chartUrl, publish, republish]);
     });
