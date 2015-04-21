@@ -2,9 +2,9 @@
 #
 
 # domain: datawrapper.dev
-domain: dev.datawrapper.fairfax.com.au
+domain: dev.datafx.fairfax.com.au
 # chart_domain: c.datawrapper.dev
-chart_domain: dev.c.datawrapper.fairfax.com.au
+chart_domain: dev.charts.datafx.fairfax.com.au
 # asset_domain: ...
 
 ## the following keys are used to hash passwords.
@@ -44,23 +44,24 @@ email:
   sender: pborbely@fairfaxmedia.com.au
 
 ## prevent guest from creating charts
-prevent_guest_charts: false
+prevent_guest_charts: true
 
 ## prevent guests from creating accounts
 ## (admin needs to create any accounts)
-prevent_guest_access: false
+prevent_guest_access: true
 
 ## the following links are shown in the footer
 ## please link to your own imprint (and not ours)
 footer_links:
     - title:
-        en: Quick Start
-        de: Schnellstart
-      url: /%lang/quickstart
+        en: Wiki
+        # de: Schnellstart
+      #url: /%lang/quickstart
+      url: https://bitbucket.org/fairfax/datafx/wiki/
     - title:
-        en: Tutorial
-        de: Tutorial
-      url: /%lang/tutorial
+        en: Bugtracker
+        #de: Tutorial
+      url: https://bitbucket.org/fairfax/datafx/issues
 
 ## base url of shared assets hosted on CDN
 ## this URL is where Datawrapper charts will access some third-party
@@ -70,7 +71,7 @@ footer_links:
 ## to use a custom home page in your installation
 ## uncomment the following setting and create a new
 ## Twig template (e.g. my-home.twig) in /templates/custom/
-# custom_home: my-home
+custom_home: ffx
 
 
 ## HTTP AUTH (optional)
