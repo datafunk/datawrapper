@@ -2,11 +2,17 @@
 {% block content %}
 
 {{ parent() }}
+<!-- /templates/chart/publish.twig -->
 
 <script type="text/javascript">
 dw.backend.ready(function() {
     require(['dw/chart/publish'], function(publish) {
+
+
+
         publish.init('{{ chartUrl }}'{% if publish %}, true{% if republish %}, true{% endif %}{% endif %});
+
+        console.log([chartUrl, publish, republish]);
     });
 });
 </script>
@@ -15,6 +21,14 @@ dw.backend.ready(function() {
         <div class="span5">
 
             {% if user.role != 'guest' %}
+
+            <p style="color:red">User is not guest</p>
+
+            <p class="lead" style="margin-top:0">{% trans "Link to this visualisation" %}</p>
+            <p class="lead"><a href="{{ chartUrl }}">{{ chartUrl }}</a></p>
+
+            <p style="color:red">&uarr; added link to pub chart</p>
+
 
             <h3>{% trans "What do you want to do with this chart?" %}</h3>
             <ul class="chart-actions">
