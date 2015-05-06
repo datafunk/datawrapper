@@ -60,11 +60,11 @@ footer_links:
     - title:
         en: Wiki
         de: Wiki
-      url: https://bitbucket.org/fairfax/datawrapper/wiki/Home
+        url: https://bitbucket.org/fairfax/datawrapper/wiki/Home
     - title:
         en: BugTracker
         de: BugTracker
-      url: https://bitbucket.org/fairfax/datawrapper/issues?status=new&status=open
+        url: https://bitbucket.org/fairfax/datawrapper/issues
 
 ## base url of shared assets hosted on CDN
 ## this URL is where Datawrapper charts will access some third-party
@@ -75,6 +75,9 @@ footer_links:
 ## uncomment the following setting and create a new
 ## Twig template (e.g. my-home.twig) in /templates/custom/
 custom_home: ffx
+
+custom_title: Fairfax Datawrapper
+custom_title_tag: v1.9.3b
 
 
 ## HTTP AUTH (optional)
