@@ -1,8 +1,8 @@
 # Datawrapper
 
-## Datawrapper Fairfax Media fork
+## Fairfax Datawrapper (fork)
 
-### This is a fork from v1.9.3
+This is a fork from v1.9.3 master, however it is not identical to datawrapper.de v1.9.3 - don't ask why..., only they  know.
 
 This repo is maintained by [Marc Moncrief](mmoncrief@fairfaxmedia.com.au) and [Peter Borbely](pborbely@fairfaxmedia.com.au) 
 
@@ -11,7 +11,7 @@ The branch named *develop* is the original repo (datawrapper.de) development bra
 
 
 
-## About datawrapper
+## About datawrapper.de
 
 Datawrapper is a tool that enables anyone to create visualizations in seconds, without any programming skills.
 

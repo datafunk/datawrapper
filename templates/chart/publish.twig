@@ -23,13 +23,11 @@ dw.backend.ready(function() {
         <div class="span5">
 
             {% if user.role != 'guest' %}
+            <script type="text/javascript">console.log('User is not guest');</script>
 
-            <p style="color:red">User is not guest</p>
+            <p class="lead" style="margin:0">{% trans "Link to this visualisation" %}</p>
+            <p><a href="{{ chartUrl }}" target="_blank">{{ chartUrl }}</a></p>
 
-            <p class="lead" style="margin-top:0">{% trans "Link to this visualisation" %}</p>
-            <p class="lead"><a href="{{ chartUrl }}">{{ chartUrl }}</a></p>
-
-            <p style="color:red">&uarr; added link to pub chart</p>
 
 
             <h3>{% trans "What do you want to do with this chart?" %}</h3>

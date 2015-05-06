@@ -53,14 +53,18 @@ prevent_guest_access: false
 ## the following links are shown in the footer
 ## please link to your own imprint (and not ours)
 footer_links:
+#    - title:
+#        en: Quick Start
+#        de: Schnellstart
+#      url: /%lang/quickstart
     - title:
-        en: Quick Start
-        de: Schnellstart
-      url: /%lang/quickstart
+        en: Wiki
+        de: Wiki
+      url: https://bitbucket.org/fairfax/datawrapper/wiki/Home
     - title:
-        en: Tutorial
-        de: Tutorial
-      url: /%lang/tutorial
+        en: BugTracker
+        de: BugTracker
+      url: https://bitbucket.org/fairfax/datawrapper/issues?status=new&status=open
 
 ## base url of shared assets hosted on CDN
 ## this URL is where Datawrapper charts will access some third-party
