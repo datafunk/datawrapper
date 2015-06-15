@@ -17,7 +17,7 @@ For accurate evaluation, this latest (as of 15 June 2015) release will also be f
 
 Due to this change, the local dev environment is now mapped to the following remotes:
 
-- "fork: git@github.com:datafunk/datawrapper.git (was origin for v1.9.3)
+- "fork: git@github.com:datafunk/datawrapper.git (was origin for v1.9.3) __ DO NOT PUSH TO THIS REMOTE UNLESS YOU INTEND TO CREATE A PULL REQUEST TO THE OFFICIAL DATAWRAPPER REPO! __
 - "datafx": git@bitbucket.org:fairfax/datafx.git (renamed repo of datawrapper, this is the repo to contribute to)
 - "upstream": git@github.com:datawrapper/datawrapper.git (new remote added to fetch v1.9.5)
 
