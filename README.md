@@ -1,25 +1,32 @@
-# Datawrapper
+# dataFx - formerly Datawrapper
 
 ## Fairfax Datawrapper (fork)
+Currently two simultanious versions are in this repo.
 
-This is a fork from v1.9.3 master, however it is not identical to datawrapper.de v1.9.3 - don't ask why..., only they  know.
-
-This repo is maintained by [Marc Moncrief](mmoncrief@fairfaxmedia.com.au) and [Peter Borbely](pborbely@fairfaxmedia.com.au) 
-
-___Note:__ Main branch is set to __dev__, which  is the ffx development branch!
-The branch named *develop* is the original repo (datawrapper.de) development branch and must not be confused.
-
-## UPDATE
+### Branches and remotes
 Starting 15 June 2015, a one month sprint of evaluation development cycle to establish the viability of datawrapper as a long-term data / charting solution for specific tasks. See https://drive.google.com/open?id=1J4DUQCrJDhNUBSYgVcdBBYet7eIMAYeYZ3fqLSdghUw&authuser=0 for initial PRD.
 
 Since the initial fork, datawrapper 1.9.5 has been released on github. 
 For accurate evaluation, this latest (as of 15 June 2015) release will also be fetched.
 
-Due to this change, the local dev environment is now mapped to teh following remotes:
+Due to this change, the local dev environment is now mapped to the following remotes:
 
 "fork: git@github.com:datafunk/datawrapper.git (was origin for v1.9.3)
 "datafx": git@bitbucket.org:fairfax/datafx.git (renamed repo of datawrapper - this is the repo to contribute to)
 "upstream": git@github.com:datawrapper/datawrapper.git (new remote added to fetch v1.9.5)
+
+__dev__ branch, as of 3b926dc is v1.9.3, which is internally modified fork of the branch _fork_ (from git@github.com:datafunk/datawrapper.git), however this was not identical to the live datawrapper.de install and was not readily functional - see sommit history and issues for details.
+
+__fork__ is _origin_ of the _dev_ branch above
+
+__upstream__ is the direct connection to the official datawrapper repo
+
+### Contacts
+
+This repo is maintained by [Marc Moncrief](mmoncrief@fairfaxmedia.com.au) and [Peter Borbely](pborbely@fairfaxmedia.com.au) 
+
+
+
 
 
 
