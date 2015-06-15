@@ -3,6 +3,12 @@
 ## Fairfax Datawrapper (fork)
 Currently two simultanious versions are in this repo.
 
+## dataFx Wiki
+https://bitbucket.org/fairfax/datafx/wiki/browse/
+
+## dataFx bugtracker
+https://bitbucket.org/fairfax/datafx/issues?status=new&status=open
+
 ### Branches and remotes
 Starting 15 June 2015, a one month sprint of evaluation development cycle to establish the viability of datawrapper as a long-term data / charting solution for specific tasks. See https://drive.google.com/open?id=1J4DUQCrJDhNUBSYgVcdBBYet7eIMAYeYZ3fqLSdghUw&authuser=0 for initial PRD.
 
