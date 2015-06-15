@@ -1,9 +1,9 @@
 {
   "name": "datawrapper",
-  "version": "1.9.3.1",
+  "version": "1.9.5",
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/fairfax/datawrapper.git"
+    "url": "https://bitbucket.org/fairfax/datafx/"
   },
   "jshintConfig": {
     "globalstrict": false,

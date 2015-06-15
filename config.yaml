@@ -2,9 +2,9 @@
 #
 
 # domain: datawrapper.dev
-domain: dev.datawrapper.fairfax.com.au
+domain: dev.datafx.fairfax.com.au
 # chart_domain: c.datawrapper.dev
-chart_domain: dev.c.datawrapper.fairfax.com.au
+chart_domain: dev.charts.datafx.fairfax.com.au
 # asset_domain: ...
 
 ## the following keys are used to hash passwords.
@@ -60,11 +60,11 @@ footer_links:
     - title:
         en: Wiki
         de: Wiki
-        url: https://bitbucket.org/fairfax/datawrapper/wiki/Home
+        url: https://bitbucket.org/fairfax/datafx/wiki/browse/
     - title:
         en: BugTracker
         de: BugTracker
-        url: https://bitbucket.org/fairfax/datawrapper/issues
+        url: https://bitbucket.org/fairfax/datafx/issues
 
 ## base url of shared assets hosted on CDN
 ## this URL is where Datawrapper charts will access some third-party
@@ -76,7 +76,7 @@ footer_links:
 ## Twig template (e.g. my-home.twig) in /templates/custom/
 custom_home: ffx
 
-custom_title: Fairfax Datawrapper
+custom_title: dataFx
 custom_title_tag: beta
 
 
