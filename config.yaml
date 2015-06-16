@@ -48,7 +48,7 @@ prevent_guest_charts: true
 
 ## prevent guests from creating accounts
 ## (admin needs to create any accounts)
-prevent_guest_access: true
+prevent_guest_access: false
 
 ## the following links are shown in the footer
 ## please link to your own imprint (and not ours)
