@@ -44,11 +44,7 @@ email:
   sender: pborbely@fairfaxmedia.com.au
 
 ## prevent guest from creating charts
-<<<<<<< HEAD
 prevent_guest_charts: true
-=======
-prevent_guest_charts: false
->>>>>>> e885e4a50000ab773aafe9954a30937ec2531aa6
 
 ## prevent guests from creating accounts
 ## (admin needs to create any accounts)
