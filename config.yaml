@@ -57,7 +57,6 @@ prevent_guest_access: false
 ## the following links are shown in the footer
 ## please link to your own imprint (and not ours)
 footer_links:
-<<<<<<< HEAD
     - title:
         en: Wiki
         # de: Schnellstart
@@ -67,20 +66,6 @@ footer_links:
         en: Bugtracker
         #de: Tutorial
       url: https://bitbucket.org/fairfax/datafx/issues
-=======
-#    - title:
-#        en: Quick Start
-#        de: Schnellstart
-#      url: /%lang/quickstart
-    - title:
-        en: Wiki
-        de: Wiki
-        url: https://bitbucket.org/fairfax/datafx/wiki/browse/
-    - title:
-        en: BugTracker
-        de: BugTracker
-        url: https://bitbucket.org/fairfax/datafx/issues
->>>>>>> e885e4a50000ab773aafe9954a30937ec2531aa6
 
 ## base url of shared assets hosted on CDN
 ## this URL is where Datawrapper charts will access some third-party
@@ -91,13 +76,9 @@ footer_links:
 ## uncomment the following setting and create a new
 ## Twig template (e.g. my-home.twig) in /templates/custom/
 custom_home: ffx
-
-<<<<<<< HEAD
-=======
 custom_title: dataFx
 custom_title_tag: beta
 
->>>>>>> e885e4a50000ab773aafe9954a30937ec2531aa6
 
 ## HTTP AUTH (optional)
 ## edit and uncomment if Datawrapper is locked behind HTTP Auth
