@@ -3,7 +3,11 @@
   "version": "1.9.5",
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "https://bitbucket.org/fairfax/datawrapper.git"
+=======
+    "url": "https://bitbucket.org/fairfax/datafx/"
+>>>>>>> e885e4a50000ab773aafe9954a30937ec2531aa6
   },
   "jshintConfig": {
     "globalstrict": false,

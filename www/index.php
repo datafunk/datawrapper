@@ -9,6 +9,7 @@
 
 define('DATAWRAPPER_VERSION', '1.9.5');  // must match with package.json
 
+
 define('ROOT_PATH', '../');
 
 require_once ROOT_PATH . 'vendor/autoload.php';

@@ -41,3 +41,7 @@ scripts/execute_jobs.lock
 composer.phar
 wip/
 wiki/
+
+
+# plugins inherited from v1.9.3
+plugins/publish-embed/
