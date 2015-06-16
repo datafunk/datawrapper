@@ -6,6 +6,7 @@
 // in the source files and then re-run /dw.js/make, or
 // otherwise your changes will be lost on the make.
 //
+/*! requires minified version here */
 
 (function(){
 
